@@ -2,7 +2,7 @@ package com.teachmeskills.lesson7.purt1.model;
 
 public class Phone {
     private String number;
-    private  String model;
+    private String model;
     private int weight;
 
     public Phone() {
@@ -40,6 +40,7 @@ public class Phone {
         this.number = number;
         System.out.println("Number: " + number);
     }
+
     public String getNumber() {
         return number;
     }
